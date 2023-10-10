@@ -1,0 +1,18 @@
+<form [formGroup]="cardForm" class="content" (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <label for="number">PAN (Card Number):</label>
+      <input type="text" id="number" formControlName="number" class="form-control">
+    </div>
+    <div class="form-group">
+      <label for="expiryDate">Expiry Date:</label>
+      <input type="date" id="expiryDate" formControlName="expiryDate" class="form-control">
+    </div>
+    <div class="form-group">
+      <label for="cvv">CVV:</label>
+      <input type="number" id="cvv" formControlName="cvv" class="form-control">
+    </div>
+    <div class="form-group">
+      <button type="submit" class="btn">Check</button>
+    </div>
+</form>
+  

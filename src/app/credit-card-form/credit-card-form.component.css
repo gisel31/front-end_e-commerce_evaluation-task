@@ -1,0 +1,23 @@
+label{
+    margin: 2%;
+}
+
+input{
+    border-radius: 20px;
+}
+.content{
+    justify-content: center;
+    margin: 5%;
+}
+
+.form-group{
+    justify-content: space-between;
+    margin: 2%;
+}
+
+.btn{
+    border-radius: 20px;
+    background-color: aquamarine;
+    color: black;
+    margin-left: 2%;
+}
