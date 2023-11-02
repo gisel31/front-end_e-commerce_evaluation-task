@@ -23,11 +23,11 @@ input{
 }
 
 .mat-card {
-    max-width: 400px; /* Ancho máximo de la tarjeta */
-    height: auto; /* Altura automática */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Estilo de sombra */
-    padding: 20px; /* Espacio interior del card */
-    margin: 0 auto; /* Centra la tarjeta en el contenedor */
+    max-width: 400px; 
+    height: auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    padding: 20px;
+    margin: 0 auto;
     margin-top: 100px;
   }
 
