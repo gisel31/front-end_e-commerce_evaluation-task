@@ -3,11 +3,11 @@ import { BrowserModule } from '@angular/platform-browser';
 import { ReactiveFormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { CreditCardFormComponent } from './credit-card-form/credit-card-form.component';
+import { CreditCardFormComponent } from './api-mocks/credit-card-form/credit-card-form.component';
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { HeaderComponent } from './header/header.component';
-import { SidenavComponent } from './sidenav/sidenav.component';
+import { HeaderComponent } from './cuerpo/header/header.component';
+import { SidenavComponent } from './cuerpo/sidenav/sidenav.component';
 import { HomeComponent } from './home/home.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { MatDividerModule } from '@angular/material/divider';
@@ -28,6 +28,8 @@ import { MatGridListModule } from "@angular/material/grid-list";
 import { LoginComponent } from './login/login.component';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { FormsModule } from '@angular/forms';
+import { EEnviosComponent } from './api-mocks/e-envios/e-envios.component';
+import { EFacturaComponent } from './api-mocks/e-factura/e-factura.component';
 
 @NgModule({
   declarations: [
@@ -38,6 +40,8 @@ import { FormsModule } from '@angular/forms';
     HomeComponent,
     DashboardComponent,
     LoginComponent,
+    EEnviosComponent,
+    EFacturaComponent,
   ],
   imports: [
     BrowserModule,

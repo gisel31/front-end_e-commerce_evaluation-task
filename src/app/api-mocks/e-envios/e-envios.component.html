@@ -1,0 +1,21 @@
+<mat-card class="shipment-card">
+    <mat-card-header>
+      <mat-card-title>Verificar Envío</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <form>
+        <div class="form-group">
+          <label for="trackingNumber">Número de Seguimiento:</label>
+          <input type="text" id="trackingNumber" formControlName="trackingNumber" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="recipientName">Nombre del Destinatario:</label>
+          <input type="text" id="recipientName" formControlName="recipientName" class="form-control">
+        </div>
+      </form>
+    </mat-card-content>
+    <mat-card-actions class="mat-card-actions">
+      <button mat-raised-button color="primary">Verificar</button>
+    </mat-card-actions>
+  </mat-card>
+  

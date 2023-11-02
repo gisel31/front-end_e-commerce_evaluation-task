@@ -71,3 +71,12 @@
     font-weight: 100;
     letter-spacing: 1px;
 }
+
+.mat-list-item {
+    display: flex; /* Utiliza flexbox para alinear elementos en la misma línea */
+    align-items: center; /* Alinea verticalmente los elementos */
+    color: #CCCCCC;
+    font-size: 0.8rem;
+    height: 44px !important;
+    margin-bottom: 4px;
+}

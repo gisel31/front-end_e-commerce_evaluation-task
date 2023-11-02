@@ -1,4 +1,5 @@
-<form [formGroup]="cardForm" class="content" (ngSubmit)="onSubmit()">
+<mat-card class="mat-card">
+  <form [formGroup]="cardForm" (ngSubmit)="onSubmit()">
     <div class="form-group">
       <label for="number">PAN (Card Number):</label>
       <input type="text" id="number" formControlName="number" class="form-control">
@@ -14,5 +15,5 @@
     <div class="form-group">
       <button type="submit" class="btn">Check</button>
     </div>
-</form>
-  
+  </form>
+</mat-card>
