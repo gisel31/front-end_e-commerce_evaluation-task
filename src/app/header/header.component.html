@@ -1,0 +1,18 @@
+<mat-toolbar>
+    <mat-toolbar-row class="justify-content-between">
+        <button mat-icon-button (click)="toggleSidenav()"><mat-icon>menu</mat-icon></button>
+        <div class="row mr-2 ml-auto">
+            <ul>
+                <button mat-button [matMenuTriggerFor]="menu" class="user mt-2 d-flex align-items-center">
+                    <img style="width: 40px;" src="../../assets/logoEcommerce.png" alt=""
+                        class="user-image mr-1 p-2" />Nombre
+                    <mat-icon class="user-image-icon ml-1">expand_more</mat-icon>
+                </button>
+                <mat-menu #menu="matMenu">
+                    <button mat-menu-item><mat-icon>exit_to_app</mat-icon>Cerrar Sesion</button>
+                </mat-menu>
+
+            </ul>
+        </div>
+    </mat-toolbar-row>
+</mat-toolbar>

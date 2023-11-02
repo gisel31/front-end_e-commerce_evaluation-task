@@ -1,0 +1,27 @@
+<mat-spinner class="spiner" diameter="50"></mat-spinner>
+<div class="container">
+    <div id="uno" class="col-md-4 mx-auto mt-5">
+        <div class="bg-white rounded-lg shadow-lg p-4">
+            <div class="text-center">
+                <img class="mx-auto img-fluid" src="../../assets/logoEcommerce.png" alt="logo">
+            </div>
+            <form (ngSubmit)="login()" #form="ngForm" class="mt-4">
+                <h3 class="text-center">Inicio sesión</h3>
+                <hr>
+                <div class="mb-3">
+                    <label for="username" class="form-label">Usuario</label>
+                    <input type="text" id="username" name="username" [(ngModel)]="email" required class="form-control">
+                </div>
+                <div class="mb-3">
+                    <label for="password" class="form-label">Contraseña</label>
+                    <input type="password" id="password" name="password" [(ngModel)]="password" required
+                        class="form-control">
+                </div>
+                <div class="mb-4 text-center">
+                    <button class="btn btn-primary" type="submit" [disabled]="form.invalid">Acceder</button>
+                </div>
+            </form>
+            <a href="forgot-password">¿Olvidó su contraseña?</a>
+        </div>
+    </div>
+</div>
